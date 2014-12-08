@@ -1,0 +1,194 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+
+    <table class="table table-striped">
+    <tr>
+        <th>S.no</th>
+        <th>Id</th>
+        <th>Itemname</th>
+        <th>Quantity</th>
+        <th>Catagory</th>
+        <th>options</th>
+
+    </tr>
+  
+            <tr>
+                <td>1</td>
+                <td>Dummy</td>
+                <td>Dummy</td>
+                <td>Dummy</td>
+                <td>Dummy</td>
+                 <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+            </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        <tr>
+            <td>1</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td>Dummy</td>
+            <td><a data-toggle="modal" data-target="#myModal" href="#">Demand</a></td>
+        </tr>
+        </tr>
+
+        </tr>
+        </table>
+    
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <p class="bg-success">Login</p>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="User name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" name="pass" class="form-control" id="inputPassword3" placeholder="Password">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <script language="javascript" type="text/javascript">
+     function DropDownTextToBox(objDropdown, strTextboxId) {
+        document.getElementById(strTextboxId).value = objDropdown.options[objDropdown.selectedIndex].value;
+        DropDownIndexClear(objDropdown.id);
+        document.getElementById(strTextboxId).focus();
+    }
+    function DropDownIndexClear(strDropdownId) {
+        if (document.getElementById(strDropdownId) != null) {
+            document.getElementById(strDropdownId).selectedIndex = -1;
+        }
+    }
+                        </script>
+                        <label for="inputPassword3" class="col-sm-2 control-label" style="text-align: left; padding-right: 0px;">user type</label>
+                        <div class="col-sm-10">
+                            <input name="TextboxExample" type="text" class="form-control" maxlength="50" id="TextboxExample" tabindex="2"
+                                   onchange="DropDownIndexClear('DropDownExTextboxExample');" style="width: 242px;
+        position: absolute; top: 0px; left: 16px; z-index: 2;" />
+                            <!--[if lte IE 6.5]><iframe></iframe></div></div><![endif]-->
+                            <select name="DropDownExTextboxExample" id="DropDownExTextboxExample" tabindex="1000"
+                                    onchange="DropDownTextToBox(this,'TextboxExample');" style="position: absolute;
+        top: 13px; left: 29px; z-index: 1; width: 265px;">
+                                <option value="Value for Item 1" title="Title for Item 1">HOD</option>
+                                <option value="Value for Item 2" title="Title for Item 2">Director</option>
+                                <option value="Value for Item 3" title="Title for Item 3">Teacher</option>
+                                <option value="Value for Item 2" title="Title for Item 2">Society Head</option>
+                                <option value="Value for Item 1" title="Title for Item 1">GPC Chair person</option>
+                                <option value="Value for Item 1" title="Title for Item 1">Gpc Member</option>
+                                <option value="Value for Item 2" title="Title for Item 2">Vendor</option>
+                                <option value="Value for Item 3" title="Title for Item 3">Store Keeper</option>
+                                <option value="Value for Item 1" title="Title for Item 1">Departmental Staff</option>
+
+                            </select>
+                            <script language="javascript" type="text/javascript">
+                                //Since the first <option> will be preselected the IndexClear function must fire once to clear that out.
+                                DropDownIndexClear("DropDownExTextboxExample");
+                            </script>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">@Html.ActionLink("Sign IN", "Index", "Teacher")</button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                * Only for authorized Users of GPC
+            </div>
+        </div>
+    </div>
+</div>
+

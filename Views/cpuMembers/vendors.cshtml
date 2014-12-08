@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "vendors";
+    Layout = "~/Views/Shared/cpu_member_Layout.cshtml";
+}
+
+<h2>vendors</h2>
+<script>
+    function change(x) // no ';' here
+    {
+        
+        var elem = document.getElementById(x);
+        if (elem.value == "Recommend") {
+            elem.innerHTML = "Recommended";
+        }
+        else 
+        elem.innerHTML = "Recommend";
+    }
+   
+    </script>
+
+<div class="container-fluid">
+
+    <h3>Hello, </h3>
+    <p>Purchase Requests</p>
+
+    <table class="table table-striped">
+        <tr>
+            <th>vendor Id </th>
+            <th>Vendor name</th>
+            <th>Special catagory</th>
+            <th>Ratings</th>
+            <th>Options</th>
+
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ali </td>
+            <td>stationary</td>
+            <td>5</td>
+            <td><button type="button" onclick="change('ali')" id="ali" class="btn btn-default">recommend</button></td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ali1 </td>
+            <td>stationary</td>
+            <td>5</td>
+            <td><button type="button" id="ali1" onclick="change('ali1')" class="btn btn-default">recommend</button></td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>umer </td>
+            <td>furniture</td>
+            <td>5</td>
+            <td><button type="button" id="umer" onclick="change('umer')" class="btn btn-default">recommend</button></td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>fayaz </td>
+            <td>kitchen</td>
+            <td>5</td>
+            <td><button type="button" id="fayyaz" onclick="change('fayaz')" class="btn btn-default">recommend</button></td>
+
+        </tr>
+    </table>
+</div>
+
+

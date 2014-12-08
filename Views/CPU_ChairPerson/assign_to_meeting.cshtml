@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "assign_to_meeting";
+    Layout = "~/Views/Shared/Chairperson_gpc_Layout.cshtml";
+}
+
+
+<div class="container-fluid">
+
+    <h3>Hello, </h3>
+    <p>Purchase Requests</p>
+
+    <table class="table table-striped">
+        <tr>
+            <th>PR.no</th>
+            <th>requested by</th>
+            <th>item catagory</th>
+            <th>vendor</th>
+            <th>options</th>
+
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ali </td>
+            <td>stationary</td>
+            <td>shafique</td>
+            <td><button type="button" class="btn btn-default">@Html.ActionLink("Assign to Meeting", "meetings", "GpcMembers")</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ali </td>
+            <td>stationary</td>
+            <td>shafique</td>
+            <td><button type="button" class="btn btn-default">@Html.ActionLink("Assign to Meeting", "meetings", "GpcMembers")</button></td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>umer </td>
+            <td>furniture</td>
+            <td>shafique</td>
+            <td><button type="button" class="btn btn-default">@Html.ActionLink("Assign to Meeting", "meetings", "GpcMembers")</button></td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>fayaz </td>
+            <td>kitchen</td>
+            <td>shafique</td>
+            <td><button type="button" class="btn btn-default">@Html.ActionLink("Assign to Meeting", "meetings", "GpcMembers")</button></td>
+
+        </tr>
+    </table>
+</div>
+
+
